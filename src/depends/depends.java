@@ -1,7 +1,6 @@
 package depends;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 public class depends {
 

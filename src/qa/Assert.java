@@ -1,6 +1,6 @@
 package qa;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 public class Assert {
 	@Test

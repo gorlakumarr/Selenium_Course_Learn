@@ -1,7 +1,6 @@
 package qa;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Test;
 import org.testng.asserts.SoftAssert;
 
 public class Assert_Soft_Hard {

@@ -1,8 +1,8 @@
 package scroll;
 
+import org.junit.Test;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 @Test
 public class ScrollUpDown {

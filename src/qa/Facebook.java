@@ -1,15 +1,15 @@
 package qa;
 
+import java.awt.Dimension;
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.Test;
 
 public class Facebook {
 	@Test
@@ -37,7 +37,7 @@ public class Facebook {
 		((JavascriptExecutor) driver).executeScript("window.resizeTo(1050,708);");
 		System.out.println("resized");
 
-		WebElement element = driver.findElement(By.xpath("//span[text()=' Facebook © 2017']"));
+		WebElement element = driver.findElement(By.xpath("//span[text()=' Facebook ï¿½ 2017']"));
 
 		JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
 		javascriptExecutor.executeScript("scroll(0,500)");
